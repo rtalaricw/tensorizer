@@ -92,7 +92,7 @@ import torch
 from tensorizer import TensorSerializer
 from transformers import AutoModelForCausalLM
 
-model_ref = "EleutherAI/gpt-j-6B"
+model_ref = "EleutherAI/gpt-j-6b"
 # For less intensive requirements, swap above with the line below:
 # model_ref = "EleutherAI/gpt-neo-125M"
 model_name = model_ref.split("/")[-1]
